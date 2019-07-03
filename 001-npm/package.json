@@ -1,0 +1,21 @@
+{
+  "name": "001-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "concat": "cat node_modules/jquery/dist/jquery.js node_modules/lodash/lodash.js > build/app.js",
+    "build": "npm run clean && npm run concat",
+    "start": "live-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  },
+  "dependencies": {
+    "jquery": "3.4.1",
+    "lodash": "4.17.11"
+  }
+}
