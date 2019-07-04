@@ -16,4 +16,17 @@ import {getColor} from './colors'
 // import icon from './location.svg'
 // document.querySelector('#icon-root').innerHTML = icon;
 
+/* Lazy loading */
+
+// document.querySelector('#btn').addEventListener('click', () => {
+
+//     import(/* webpackChunkName: "route" */ './route')
+//         .then(routeModule => {
+//             const profileData = routeModule.fetchProfileData()
+//             console.log(profileData)
+//             return profileData
+//         })
+
+// });
+
 console.log(getColor())

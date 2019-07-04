@@ -9,6 +9,7 @@ module.exports = {
     devtool: 'sourcemap',
     output: {
         path: path.resolve(__dirname, 'build'),
+        publicPath: `${path.resolve(__dirname, 'build')}/`,
         filename: 'app.js'
     },
     module: {
