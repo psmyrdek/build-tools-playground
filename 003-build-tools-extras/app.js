@@ -9,15 +9,11 @@ import {getColor} from './colors'
 /* Support HTML */
 
 // import template from './template.html'
-// document.addEventListener('DOMContentLoaded', () => {
-//     document.querySelector('#root').innerHTML = template;
-// });
+// document.querySelector('#root').innerHTML = template;
 
 /* Support SVG */
 
 // import icon from './location.svg'
-// document.addEventListener('DOMContentLoaded', () => {
-//     document.querySelector('#icon-root').innerHTML = icon;
-// });
+// document.querySelector('#icon-root').innerHTML = icon;
 
 console.log(getColor())
