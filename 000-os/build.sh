@@ -27,12 +27,12 @@ do
    curl -LJOs $i
 done
 
+echo "Fetching done!"
+
 unzip \*.zip
 rm *.zip
 
 cd ..
-
-echo "Fetching done!"
 
 # Build app bundle
 
