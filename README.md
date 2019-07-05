@@ -31,4 +31,4 @@ This example is about going back to basics - what's the simplest possible tool o
 
 ## Slides
 
-Project you are currently looking at has been used by me during on of the talks at SmartRecruiters HackerSpace meetings. To check out the slides of my talk, [click here](https://docs.google.com/presentation/d/132MLdeEa8wt1RnYD9DOZRRJ1Ofss0ZwYgmcZ0hTZDxk/edit?usp=sharing).
+Project you are currently looking at has been used by me during one of the talks at SmartRecruiters HackerSpace meetings. To check out the slides of my talk, [click here](https://docs.google.com/presentation/d/132MLdeEa8wt1RnYD9DOZRRJ1Ofss0ZwYgmcZ0hTZDxk/edit?usp=sharing).
