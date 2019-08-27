@@ -6,20 +6,20 @@ declare -a deps=(
 )
 
 declare -a scripts=(
-    "sr_modules/jquery-3.4.1/dist/jquery.js"
-    "sr_modules/lodash-4.17.11/lodash.js"
+    "my_modules/jquery-3.4.1/dist/jquery.js"
+    "my_modules/lodash-4.17.11/lodash.js"
 )
 
 # Fetch deps
 
 echo "Cleaning it up!"
 
-rm -rf build sr_modules
-mkdir build sr_modules
+rm -rf build my_modules
+mkdir build my_modules
 
 echo "Fetching deps..."
 
-cd sr_modules
+cd my_modules
 
 for i in "${deps[@]}"
 do
