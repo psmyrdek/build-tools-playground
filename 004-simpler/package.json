@@ -12,7 +12,7 @@
     "lodash-es": "4.17.11"
   },
   "devDependencies": {
-    "parcel": "1.12.3",
+    "parcel": "2.8.2",
     "typescript": "^3.5.2"
   }
 }
